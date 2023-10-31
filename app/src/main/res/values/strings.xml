@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">evaluation</string>
+    <string name="Login">Entrar</string>
+    <string name="academico">Academico</string>
+    <string name="esportivo">Esportivo</string>
+    <string name="empresarial">Empresarial</string>
+    <string name="escolha">Escolha a modalidade que deseja.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navegation"
+    app:startDestination="@id/menuFragments">
+    <fragment
+        android:id="@+id/menuFragments"
+        android:name="com.example.evaluation.fragments.ParteInterna"
+        android:label="fragment_parte_interna"
+        tools:layout="@layout/fragment_parte_interna" >
+        <action
+            android:id="@+id/action_menuFragments_to_esportFragment"
+            app:destination="@id/esportFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/esportFragment"
+        android:name="com.example.evaluation.esportFragment"
+        android:label="fragment_esport"
+        tools:layout="@layout/fragment_esport" >
+        <action
+            android:id="@+id/action_esportFragment_to_menuFragments"
+            app:destination="@id/menuFragments" />
+    </fragment>
+</navigation>
