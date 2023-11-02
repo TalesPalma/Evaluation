@@ -9,17 +9,6 @@
     >
 
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="match_parent"
-        android:layout_height="132dp"
-        android:src="@drawable/tempgrafico"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/IpSupino"
@@ -41,6 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Supino"
+            android:inputType="numberDecimal"
             android:textColor="#FFF9F9"
             android:textColorHint="#FFF5F5"
             android:textSize="20sp" />
@@ -65,6 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Agachamento"
+            android:inputType="numberDecimal"
             android:textColor="#FBF8F8"
             android:textSize="20sp" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -88,6 +79,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Levantamento terra"
+            android:inputType="numberDecimal"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -104,7 +96,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttoSalvar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Salvar"
@@ -134,6 +126,18 @@
         android:textColor="@color/white"
         android:textStyle="bold|italic"
         app:layout_constraintVertical_bias="0.745" />
+
+    <WebView
+
+        android:id="@+id/grafico"
+        android:layout_width="match_parent"
+        android:layout_height="179dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

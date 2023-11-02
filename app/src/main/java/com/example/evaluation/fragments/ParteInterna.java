@@ -26,7 +26,8 @@ public class ParteInterna extends Fragment {
 
 View view =  inflater.inflate(R.layout.fragment_parte_interna, container, false);
 
-        view.findViewById(R.id.buttonEsport).setOnClickListener(v -> findNavController(view).navigate(R.id.action_menuFragments_to_esportFragment));
+        view.findViewById(R.id.buttonEsport).setOnClickListener(v -> findNavController(view).navigate(R.id.action_menuFragments_to_esportFragment
+        ));
 
 return view;
     }
