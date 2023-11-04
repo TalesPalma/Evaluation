@@ -9,15 +9,14 @@
     >
 
 
-
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/IpSupino"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColorHint="@color/white"
+        android:textColorHint="@color/inputSupino"
         app:boxBackgroundMode="outline"
         app:boxStrokeColor="#FFF6F6"
-        app:hintTextColor="#FFFFFF"
+        app:hintTextColor="@color/inputSupino"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -40,9 +39,9 @@
         android:id="@+id/IpAchamento"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColorHint="@color/white"
+        android:textColorHint="@color/inputAgachamento"
         app:boxStrokeColor="#FFFCFC"
-        app:hintTextColor="@color/white"
+        app:hintTextColor="@color/inputAgachamento"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -64,9 +63,9 @@
         android:id="@+id/IpTerra"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColorHint="@color/white"
+        android:textColorHint="@color/inputTerra"
         app:boxStrokeColor="@color/white"
-        app:hintTextColor="@color/white"
+        app:hintTextColor="@color/inputTerra"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -112,29 +111,13 @@
         android:textAlignment="center"
         />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Grafico de seu progresso"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        android:textColor="@color/white"
-        android:textStyle="bold|italic"
-        app:layout_constraintVertical_bias="0.745" />
-
     <WebView
-
         android:id="@+id/grafico"
-        android:layout_width="match_parent"
-        android:layout_height="179dp"
+        android:layout_width="415dp"
+        android:layout_height="184dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />

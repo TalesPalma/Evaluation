@@ -4,4 +4,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="bluetheme">#1CBDFD</color>
     <color name="background">#5271ff</color>
+    <color name="inputSupino">#FF5656</color>
+    <color name="inputAgachamento">#fff90c</color>
+    <color name="inputTerra">#00ff58</color>
+
+
 </resources>
