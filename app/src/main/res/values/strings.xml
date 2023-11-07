@@ -7,5 +7,6 @@
     <string name="escolha">Escolha a modalidade que deseja.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="digite_a_media_de_aprova_o">Digite a media de aprovação</string>
 
 </resources>

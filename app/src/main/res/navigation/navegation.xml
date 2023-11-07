@@ -12,14 +12,18 @@
         <action
             android:id="@+id/action_menuFragments_to_esportFragment"
             app:destination="@id/esportFragment" />
+        <action
+            android:id="@+id/action_menuFragments_to_academicFragment"
+            app:destination="@id/academicFragment" />
     </fragment>
     <fragment
         android:id="@+id/esportFragment"
         android:name="com.example.evaluation.esportFragment"
         android:label="fragment_esport"
-        tools:layout="@layout/fragment_esport" >
-        <action
-            android:id="@+id/action_esportFragment_to_menuFragments"
-            app:destination="@id/menuFragments" />
-    </fragment>
+        tools:layout="@layout/fragment_esport" />
+    <fragment
+        android:id="@+id/academicFragment"
+        android:name="com.example.evaluation.fragments.academicFragment"
+        android:label="fragment_academic"
+        tools:layout="@layout/fragment_academic" />
 </navigation>

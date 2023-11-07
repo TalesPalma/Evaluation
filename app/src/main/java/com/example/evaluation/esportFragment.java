@@ -124,6 +124,7 @@ public class esportFragment extends Fragment {
                 webView.loadUrl("javascript:document.getElementById('dataDisplay').innerHTML = " +
                         "'Dados: " + input1 + ", " + input2 + ", " + input3 + "';");
 
+
                 webView.loadUrl("javascript:addDataToChart(" + input1 + ", " + input2 + ", " + input3 + ");");
 
                 toast = Toast.makeText(requireContext(), "Gráfico atualizado com sucesso!!", Toast.LENGTH_SHORT);
